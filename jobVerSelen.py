@@ -12,5 +12,5 @@ for product, price in zip(product_elements, price_elements):
     product_name = product.text
     product_price = price.text
     ws.append([product_name, product_price])
-wb.save('products.xlsx')
+wb.save('prod.xlsx')
 driver.quit()
