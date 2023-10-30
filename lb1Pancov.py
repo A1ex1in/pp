@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 from openpyxl import Workbook
-driver = webdriver.Chrome()
+driver = webdriver.Edge()
 driver.get('https://iotvega.com/product')
 time.sleep(10)
 wb = Workbook()
